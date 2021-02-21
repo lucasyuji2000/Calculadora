@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form {
+    width: 16.9rem;
+    display: flex;
+    justify-content: center;
+    margin: .1rem;
+}
+
+.textview {
+    width: 100%;
+    height: 4rem;
+    outline: none;
+    font-size: 2rem;
+}
+
+.button {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin: .1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-equal {
+    width: 4rem;
+    height: 8.33rem;
+    font-size: 2rem;
+    margin: .1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-zero {
+    width: 97.5%;
+    height: 4rem;
+    font-size: 2rem;
+    margin: .1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+
